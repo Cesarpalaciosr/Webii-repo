@@ -1,6 +1,6 @@
 var registerForm = document.getElementById("data-form");
 //var API_url= "https://proyecto-1-web-ii.herokuapp.com/Register";
-var API_url = window.location.origin+"/Proyecto_Web_II_Cesar/Register";
+var API_url = window.location.origin+"/webii_repo/Register";
 
 
 registerForm.addEventListener("submit", send);
@@ -22,7 +22,7 @@ async function send(e) {
 
   if (response.status == 200) {
 	console.log(window.location)
-    window.location = window.location.origin +"/Proyecto_Web_II_Cesar/public/views/login.html";
+    window.location = window.location.origin +"/webii_repo/public/views/login.html";
   } else {
     console.log("No se pudo Registrar los datos");
   }
