@@ -22,7 +22,7 @@ async function send(e) {
 
   if (response.status == 200) {
 	console.log(window.location)
-    window.location = window.location.origin +"/webii_repo/public/views/login.html";
+    window.location = window.location.origin +"/public/views/login.html";
   } else {
     console.log("No se pudo Registrar los datos");
   }

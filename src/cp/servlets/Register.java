@@ -39,7 +39,6 @@ public class Register extends HttpServlet {
 		response.addHeader("Access-Control-Allow-Origin", "*");
 		PrintWriter out = response.getWriter();
 		out.print(" esto es la respuesta para el cliente");
-		//response.sendRedirect("http://localhost:8080/Proyecto_Web_II_Cesar/index.html");//response.sendRedirect("./public/views/login.html");
 	}
 
 	/**
